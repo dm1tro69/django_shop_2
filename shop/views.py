@@ -12,7 +12,8 @@ class ProductsList(ListView):
 
 
 class ProductDetail(DetailView):
+    """Карточка товара"""
     model = Product
     template_name = 'shop/list_detail.html'
-    context_object_name = 'list_detail'
+    context_object_name = 'product'
 

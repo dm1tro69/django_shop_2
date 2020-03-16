@@ -1,4 +1,10 @@
-{% extends 'base.html' %}
-{% block content %}
 
-{% endblock %}
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="row">
+        {% block product %}
+        {% endblock product %}
+       {% include 'shop/sidebar.html' %}
+    </div>
+{% endblock content %}
