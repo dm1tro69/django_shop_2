@@ -63,17 +63,17 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>2012</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16658|16660|1
-sequence|table|16674|16676|1
-sequence|table|16537|16539|1
-sequence|table|16490|16492|1
+      <Relations>sequence|table|16490|16492|1
 sequence|table|16501|16503|1
 sequence|table|16511|16513|1
 sequence|table|16519|16521|1
 sequence|table|16529|16531|1
+sequence|table|16658|16660|1
+sequence|table|16615|16617|1
+sequence|table|16537|16539|1
 sequence|table|16547|16549|1
 sequence|table|16555|16557|1
-sequence|table|16615|16617|1
+sequence|table|16674|16676|1
 </Relations>
     </database>
     <database id="16" parent="1" name="store">
